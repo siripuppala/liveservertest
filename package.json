@@ -5,11 +5,15 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "start live-server"
+    "serve":"lite-server",
+    "start": "npm run serve"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
   }
 }
